@@ -8,4 +8,9 @@ public class TestCalculator {
     public void calculatorTest(){
         Assert.assertEquals(calculator.add("5", "8"), "58");
     }
+    
+    @Test
+    public void calculatorSecondTest(){
+        Assert.assertEquals(calculator.add("5", "8"), "13");
+    }
 }
