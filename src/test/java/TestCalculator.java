@@ -11,6 +11,6 @@ public class TestCalculator {
     
     @Test
     public void calculatorSecondTest(){
-        Assert.assertEquals(calculator.add("5", "8"), "13");
+        Assert.assertEquals(calculator.add(5, 8), 13);
     }
 }
