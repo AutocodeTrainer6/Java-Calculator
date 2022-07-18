@@ -13,4 +13,9 @@ public class TestCalculator {
     public void calculatorSecondTest(){
         Assert.assertEquals(calculator.add(5, 8), 13);
     }
+    
+    @Test
+    public void calculatorThirdTest(){
+        Assert.assertEquals(calculator.add("5", "8"), "13");
+    }
 }
